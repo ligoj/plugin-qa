@@ -12,7 +12,7 @@ public class QaResource extends AbstractServicePlugin {
 	/**
 	 * Plug-in key.
 	 */
-	public static final String SERVICE_URL = BASE_URL + "/kpi";
+	public static final String SERVICE_URL = BASE_URL + "/qa";
 
 	/**
 	 * Plug-in key.
