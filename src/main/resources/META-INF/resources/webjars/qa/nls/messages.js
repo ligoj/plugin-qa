@@ -1,5 +1,5 @@
 define({
 	"root" : {
-		"service:kpi" : "KPI"
+		"service:qa" : "QA"
 	}
 });
