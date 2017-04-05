@@ -30,7 +30,7 @@ public class QaResourceTest extends AbstractAppTest {
 
 	@Before
 	public void prepareData() throws IOException {
-		persistEntities("csv/saas-test", new Class[] { Node.class }, StandardCharsets.UTF_8.name());
+		persistEntities("csv", new Class[] { Node.class }, StandardCharsets.UTF_8.name());
 	}
 
 	@Test
