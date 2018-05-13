@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.ligoj.api</groupId>
 		<artifactId>plugin-parent</artifactId>
-		<version>2.2.5</version>
+		<version>2.4.2</version>
 		<relativePath />
 	</parent>
 
@@ -13,6 +13,12 @@
 	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Ligoj - Plugin QA (Quality Assurance)</name>
+
+	<scm>
+		<connection>scm:git:https://github.com/ligoj/plugin-qa</connection>
+		<developerConnection>scm:git:https://github.com/ligoj/plugin-qa</developerConnection>
+		<url>https://github.com/ligoj/plugin-qa.git</url>
+	</scm>
 
 	<profiles>
 		<profile>
