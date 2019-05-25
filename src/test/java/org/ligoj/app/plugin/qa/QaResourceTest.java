@@ -1,3 +1,6 @@
+/*
+ * Licensed under MIT (https://github.com/ligoj/ligoj/blob/master/LICENSE)
+ */
 package org.ligoj.app.plugin.qa;
 
 import java.io.IOException;
@@ -29,12 +32,12 @@ public class QaResourceTest extends AbstractAppTest {
 	private QaResource resource;
 
 	@BeforeEach
-	public void prepareData() throws IOException {
+	void prepareData() throws IOException {
 		persistEntities("csv", new Class[] { Node.class }, StandardCharsets.UTF_8.name());
 	}
 
 	@Test
-	public void getKey() {
+	void getKey() {
 		// Coverage only
 		Assertions.assertEquals("service:qa", resource.getKey());
 	}
