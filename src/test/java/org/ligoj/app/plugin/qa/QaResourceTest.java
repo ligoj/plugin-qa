@@ -26,7 +26,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @ContextConfiguration(locations = "classpath:/META-INF/spring/application-context-test.xml")
 @Rollback
 @Transactional
-public class QaResourceTest extends AbstractAppTest {
+class QaResourceTest extends AbstractAppTest {
 
 	@Autowired
 	private QaResource resource;
