@@ -49,7 +49,7 @@ describe('plugin-qa → plugin-qa-sonarqube delegation', () => {
       parameters: { 'service:qa:sonarqube:url': 'https://sonar.example.org', 'service:qa:sonarqube:project': 'org.ligoj:app' },
     })
     expect(result.length).toBe(1)
-    expect(result[0].props.href).toBe('https://sonar.example.org/dashboard/index/org.ligoj%3Aapp')
+    expect(result[0].props.href).toBe('https://sonar.example.org/dashboard?id=org.ligoj%3Aapp')
   })
 
   it('does not delegate for a non-sonarqube tool', () => {
